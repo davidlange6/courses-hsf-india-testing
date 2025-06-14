@@ -51,6 +51,7 @@ dependencies:
       - pybind11
 #      - pycuda #seems that this needs to be installed together with numpy
       - pyhf
+      - pyhsp
       - scikit-learn
       #- servicex
       - tables
