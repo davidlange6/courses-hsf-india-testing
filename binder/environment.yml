@@ -4,11 +4,11 @@ channels:
   - nvidia/label/cuda-12.4.1
 dependencies:
   - python=3.10
-  - libcurand
-  - libcurand-dev
-  - cuda-minimal-build=12.4
-  - cupy
-  #- xorg-libxi 
+#  - libcurand
+#  - libcurand-dev
+#  - cuda-minimal-build=12.4
+#  - cupy
+#  #- xorg-libxi 
   - graphviz=2.40.1  #without version, graphviz install errors out with missing dependency via gtk3 to libXi..
   - nomkl #remove the large mkl lib stuff
   - pip
@@ -49,7 +49,7 @@ dependencies:
       - protobuf
       - pyarrow
       - pybind11
-      - pycuda #seems that this needs to be installed together with numpy
+#      - pycuda #seems that this needs to be installed together with numpy
       - pyhf
       - scikit-learn
       #- servicex
@@ -63,16 +63,16 @@ dependencies:
       - graphviz
       - dask-labextension
       - servicex
-      - tensorflow
-      - tensorflow-probability
-      - tensorrt
+#      - tensorflow
+#      - tensorflow-probability
+#      - tensorrt
       - scikit-learn
       - seaborn
       - xgboost
-      - torch
+#      - torch
       #==2.3.0
-      - torchvision
-      - torchaudio
+#      - torchvision
+#      - torchaudio
       
 #variables:
 #  LD_LIBRARY_PATH: "'$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CONDA_PREFIX/x86_64-conda-linux-gnu/sysroot/usr/lib64/'"
