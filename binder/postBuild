@@ -11,7 +11,7 @@ set -e
 pip cache purge
 
 #clean up some big files - maybe we don't need them
-rm `find /srv/conda/envs -size +50M -name \*.a`
+#rm `find /srv/conda/envs -size +50M -name \*.a`
 
 # add nsys for GPU lectures
 # fragile to say the least...will need updating to keep versions current
